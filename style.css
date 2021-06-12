@@ -1,0 +1,153 @@
+body {
+	background-color: #232323;
+	margin: 0;
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	margin: 1.66%;
+	float: left;
+	padding-bottom: 30%;
+		border-radius: 15%;
+	transition: background 0.8s;
+	/*For Broswers compatibility */
+	-webkit-transition: background 0.8s;
+	-moz-transition: background 0.8s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 30px auto;
+}
+
+h1 {
+	font-family: "Coiny", cursive;
+	color: ghostwhite;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	font-size: 45px;
+	line-height: 1.1;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#para{
+
+
+margin: auto;
+position: relative;
+text-align: center;
+}
+
+#para a {
+	margin-top:  0px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-family: "Coiny", cursive;
+	color: ghostwhite;
+	font-weight: normal;
+	font-size: 2rem;
+	padding: 1rem;
+	border: 2px solid white;
+}
+
+
+#rgbDisplay {
+	font-family: "Lato", sans-serif;
+	text-transform: uppercase;
+	font-size: 120%;
+	font-weight: 700;
+}
+
+#displyMessage {
+	width: 20%;
+	display: inline-block;
+	font-weight: 600;
+	font-family: monospace;
+	font-size: 16px;
+	font-family: "Knewave", cursive;
+}
+
+#stripe {
+	display: block;
+	padding: 2rem;
+	background-color: white;
+	text-align: center;
+	font-size:  1.5rem;
+	height: 30px;
+	color: black;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.selected {
+	color: white;
+	background-color: steelblue;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	font-family: "Knewave", cursive;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	outline: none;
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+footer {
+	position: relative;
+	color: rgb(255, 255, 255);
+	background-color:#232323;
+	width: 100%;
+	line-height: 1.1;
+	margin-top: 40px;
+	display: inline-block;
+	text-align: center;
+	opacity: 0.5;
+	 position: relative;
+
+}
+
+footer a {
+	color: palegreen;
+}
+
+
+
+footer a ,footer p{
+	text-decoration: none;
+	
+}
+
+
+footer a:hover {
+	padding: 5px;
+	color: white;
+	background-color: black;
+	border: 1px solid white;
+	border-radius: 3px;
+}
+
+/* #watermark {
+	
+	background: steelblue;
+	height: 35px;
+		
+	} */
