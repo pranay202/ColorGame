@@ -22,6 +22,9 @@ body {
 }
 
 h1 {
+	position: fixed;
+	top: 0;
+	width: 100%;
 	font-family: "Coiny", cursive;
 	color: ghostwhite;
 	text-align: center;
@@ -32,6 +35,9 @@ h1 {
 	line-height: 1.1;
 	padding-bottom: 20px;
 	padding-top: 20px;
+	z-index: 1;
+	transition:0.2s;
+	
 }
 
 #para{
@@ -104,6 +110,7 @@ button {
 	-webkit-transition: all 1s;
 	-moz-transition: all 1s;
 	outline: none;
+	
 }
 
 button:hover {
@@ -143,6 +150,12 @@ footer a:hover {
 	background-color: black;
 	border: 1px solid white;
 	border-radius: 3px;
+	
+}
+
+body:not(#header) {
+	padding-top: 5.85%;
+	z-index:auto;
 }
 
 /* #watermark {
@@ -151,3 +164,5 @@ footer a:hover {
 	height: 35px;
 		
 	} */
+
+	

@@ -10,6 +10,17 @@ var resetButton = document.getElementById("reset");
 var easyBtn = document.querySelector("#easyBtn");
 var hardBtn = document.querySelector("#hardBtn");
 
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 45 || document.documentElement.scrollTop > 45) {
+    document.getElementById("header").style.fontSize = "35px";
+  } else {
+    document.getElementById("header").style.fontSize = "45px";
+  }
+}
+
 document.addEventListener('keydown', function(event) {
     if (event.keyCode == 37) {
         hardBtn.classList.remove("selected");

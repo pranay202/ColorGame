@@ -1,0 +1,43 @@
+@media screen and (max-width:1200px) {
+
+    #header{
+        font-size:35px;
+    }
+    
+    #stripe{
+        display:flex;
+        flex-direction:column;
+        height:auto;
+        justify-content:center;
+        align-items:center;
+    }
+    #easybtn{
+        position:relative;
+   
+    }
+    #hardbtn{
+        position:relative;
+        
+    }
+
+    #para{
+        display:inline;
+        font-size: 1px;
+        padding:0px;
+        flex-wrap: nowrap;
+    }
+
+    #displyMessage{
+        text-align:center;
+        display: inline-block;
+        background-color:burlywood;
+        padding: 0.5em;
+        border-radius: 50%;
+    }
+
+    body:not(#header) {
+        padding-top: 33%;
+        z-index:auto;
+    }
+    
+}
